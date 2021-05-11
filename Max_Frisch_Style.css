@@ -1,16 +1,20 @@
+/*ctrl + shift + p for tidy up*/
 body {
     width: 100%;
     height: 300vh;
     padding: 0;
     margin: 0;
-  }
+}
 
 .container {
     width: 100%;
     height: 100vh;
     display: grid;
-    grid-template-columns: repeat(12,6fr); /*fractions fr*/ /*anzahl zahlenformate = anzahl spalten*/
-    grid-template-rows: repeat(24,6rem); /*fr funktioniert nicht bei rows*/
+    grid-template-columns: repeat(12, 6fr);
+    /*fractions fr*/
+    /*anzahl zahlenformate = anzahl spalten*/
+    grid-template-rows: repeat(24, 6rem);
+    /*fr funktioniert nicht bei rows*/
     grid-gap: 0.5rem;
 }
 
@@ -19,7 +23,7 @@ body {
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center;
-    background-size:cover;
+    background-size: cover;
     grid-area: 1 / 1 / 13 / 13;
 }
 
@@ -27,14 +31,14 @@ body {
     display: grid;
     grid-area: 5 / 5 / 7 / 7;
     justify-items: center;
-    object-fit:cover;
-    object-position: center;  
+    object-fit: cover;
+    object-position: center;
 }
 
 .photo2 {
     display: grid;
     grid-area: 5 / 8 / 7 / 10;
     justify-items: center;
-    object-fit:cover;
-    object-position: center;  
+    object-fit: cover;
+    object-position: center;
 }
